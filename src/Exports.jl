@@ -174,6 +174,10 @@ using Gridap.CellData: ∫; export ∫
 @publish FESpaces FiniteElements
 @publish FESpaces ConstantFESpace
 
+# Stuff I need:
+@publish FESpaces collect_cell_matrix_and_vector
+@publish FESpaces assemble_matrix_and_vector
+
 @publish MultiField MultiFieldFESpace
 @publish MultiField num_fields
 
