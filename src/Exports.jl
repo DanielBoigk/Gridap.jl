@@ -177,7 +177,6 @@ using Gridap.CellData: ∫; export ∫
 # Stuff I need:
 @publish FESpaces collect_cell_matrix_and_vector
 @publish FESpaces assemble_matrix_and_vector
-@publish collect_cell_vector
 @publish _collect_cell_matvec
 @publish collect_cell_matrix
 @publish collect_cell_vector
