@@ -137,7 +137,7 @@ function CellField(fs::SingleFieldFESpace,cell_vals)
   GenericCellField(cell_field,get_triangulation(v),DomainStyle(v))
 end
 
-struct SingleFieldFEFunction{T<:CellField} <: FEFunction
+mutable struct SingleFieldFEFunction{T<:CellField} <: FEFunction
   cell_field::T
   cell_dof_values::AbstractArray{<:AbstractVector{<:Number}}
   free_values::AbstractVector{<:Number}
